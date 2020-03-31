@@ -7,3 +7,8 @@ bin/*
 /target/
 
 .DS_Store
+
+.gradle/
+.idea/
+
+build/
