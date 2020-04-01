@@ -1,0 +1,1 @@
+docker run -d polenta/polenta-db:latest
