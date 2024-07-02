@@ -1,3 +1,3 @@
-./gradlew clean build
+mvn clean package
 
 docker build -t polenta/polenta-db .

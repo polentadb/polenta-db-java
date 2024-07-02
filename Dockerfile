@@ -1,7 +1,7 @@
-FROM openjdk:8
+FROM openjdk:17
 
 RUN mkdir -p /var/polenta-db/libs
 
-COPY ./build/libs/polenta-db-0.0.3.jar /var/polenta-db/libs/.
+COPY ./target/polenta-db.jar /var/polenta-db/libs/.
 
-CMD ["java", "-jar", "/var/polenta-db/libs/polenta-db-0.0.3.jar"]
+CMD ["java", "-jar", "/var/polenta-db/libs/polenta-db.jar"]
