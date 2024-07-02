@@ -9,9 +9,9 @@ import java.net.SocketException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.polenta.db.executor.StatementExecutor;
-import com.polenta.db.executor.StatementExecutorBuilder;
-import com.polenta.db.log.Logger;
+import com.polenta.core.executor.StatementExecutor;
+import com.polenta.core.executor.StatementExecutorBuilder;
+import com.polenta.core.log.Logger;
 
 public class StatementListener implements Runnable {
 

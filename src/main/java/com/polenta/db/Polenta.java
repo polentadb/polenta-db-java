@@ -2,7 +2,7 @@ package com.polenta.db;
 
 import java.io.IOException;
 
-import com.polenta.db.log.Logger;
+import com.polenta.core.log.Logger;
 import com.polenta.db.socket.SocketServer;
 
 public class Polenta {

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import com.polenta.db.log.Logger;
+import com.polenta.core.log.Logger;
 
 public class SocketServer {
 
