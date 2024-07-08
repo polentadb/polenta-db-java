@@ -51,12 +51,6 @@ public class Polenta {
 
 	}
 
-	public static final void shutdown() {
-		Logger.logSystem("Polenta shutdown in progress.");
-		socketServer.close();
-		System.exit(0);
-	}
-	
 	protected static int intArgument(String argName, int defaultValue, String[] args) {
 		String argValue = argument(argName, args);
 		if (argValue == null) {
